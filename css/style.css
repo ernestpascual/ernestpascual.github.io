@@ -1,0 +1,64 @@
+html {
+  font-size: 10px;
+  bottom center;
+  background-size: cover;
+}
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color:#363636;
+  
+}
+h1 {
+  font-family: sans-serif;
+  color: #cc527a;
+  font-size: 800%;
+ 
+  
+}
+
+.keys {
+  padding-top: -1000%;
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: .4rem solid #A8A7A7;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .1s ease;
+  width: 10rem;
+  text-align: center;
+  color: #A8A7A7;
+
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #e8175d;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #cc527a;
+}
+
+.removemargin{
+   font-family: sans-serif;
+   text-align: right;
+ 
+}
